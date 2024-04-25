@@ -5,6 +5,9 @@
 
 ![Screenshot (419)](https://user-images.githubusercontent.com/88705136/171320963-0ac44fd4-2d7f-4b20-82e5-cd66bb4cf946.png)
 
+*** งานวิจัยล่าสุด SATELLITE DERIVED BATHYMETRY PRODUCTION CASE STUDY AT DEEPWATER PORT OF MAPTAPHUT INDUSTRIAL PARK RAYONG ภาพดาวเทียมเชิงทัศน์ Sentinel2 กับข้อมูลค่าระดับท้องน้ำจาก echo sounding ได้รับความอนุเคราะห์จากนายช่างประจวบ เรียบร้อย Italian-Thai Development Corporation Limited (ITD) https://ph02.tci-thaijo.org/index.php/eit-researchjournal/article/view/252582 ***
+
+
 ศึกษาการทำแบบจำลองความลึกท้องน้ำตื้น (Bathymetry Model) บริเวณชายฝั่งทะเลประเทศไทย จากภาพถ่ายดาวเทียม Sentinel-2 และค่าระดับจากระบบไลดาร์บนดาวเทียม ICESat-2 ผ่านการเขียน python programming จัดการข้อมูลและทำแบบจำลอง โดยนำเข้าข้อมูลภาพถ่ายจากระบบ Google Earth Engine
 
 ความลึกตัวอย่างทำได้จากการคัดเลือกค่าระดับท้องน้ำและผิวน้ำจาก point cloud จาก ATLAS LiDAR บนดาวเทียม ICESat-2 นำข้อมูลดิบมานำเข้า pandas dataframe หากโหลดข้อมูลเริ่มต้นแบบ hdf5 file นำเข้า python ด้วย library h5py แล้วนำเข้า dataframe เพื่อความสะดวกในการจัดการ
